@@ -8,6 +8,36 @@
     <link rel="stylesheet" href="assets/css/main.css" />
     <meta name=" GIZZY COIN " content="Discover Gizzy Coin, the pawfect meme coin powered by community, humor, and heart. Inspired by Gizzy, a resilient Yorkie and cancer survivor, we're on a mission to revolutionize crypto while supporting animal charities worldwide. Join the movement today!">
   </head>
+  <style>
+    /* Responsive styles */
+@media (min-width: 768px) {
+  .about__container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .about__col {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+  }
+
+  .about__text {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 767px) {
+  .about__left,
+  .about__right {
+    display: none;
+  }
+
+  .about__text {
+    font-size: 14px;
+  }
+}
+  </style>
   <body>
     <div class="wrapper">
       <header class="header">
@@ -103,7 +133,7 @@
           <div class="about__col">
             <h2 class="about__title" style="color:#5c3989 !important">
               <img src="assets/img/about-decor-left.png" alt="" />
-              <p>THE MISSION</p>
+               <h2 class="buy__title" style="color: #5c3989;">THE MISSION</h2>
            <!--   <img src="assets/img/about-decor-right.png" alt="" />-->
             </h2>
             <p class="about__text">
